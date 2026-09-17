@@ -1,8 +1,18 @@
 # Advanced AWS Networking — Transit Gateway & VPC Peering
 
-Hands-on labs covering the two main ways to connect multiple VPCs in AWS: a hub-and-spoke
-topology with **Transit Gateway**, and a direct **VPC Peering** connection. Each sub-project
-was built and verified in the AWS console, with screenshots captured at every step.
+**Summary:** Designed, built, and validated two multi-VPC connectivity architectures —
+a three-VPC Transit Gateway hub-and-spoke topology and a cross-region VPC peering
+connection — including route table configuration, security group hardening, and end-to-end
+connectivity testing via SSH and ICMP.
+
+## Skills demonstrated
+
+- Multi-VPC network architecture (hub-and-spoke vs. peered topologies)
+- AWS Transit Gateway configuration: attachments, route table associations/propagations
+- Cross-region VPC Peering setup and route table management on both sides of a connection
+- Security group rule design (least-privilege SSH/ICMP access between environments)
+- Network troubleshooting: jump-host (bastion-style) access and live connectivity validation
+- Environment teardown/cleanup discipline once testing is complete
 
 ## Part 1 — Transit Gateway (`Transit-Gateway-Projets/`)
 
